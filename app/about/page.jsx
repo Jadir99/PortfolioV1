@@ -94,7 +94,7 @@ const About = () => {
                     >
                       <Image
                         src="/assets/aboutme.jpg"
-                        alt="Zakariae Azarkan"
+                        alt="JADIR Mohammed"
                         width={356}
                         height={356}
                         className='object-cover rounded-lg shadow-lg'

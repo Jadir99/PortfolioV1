@@ -17,7 +17,7 @@ export const contact = [
   {
     icon: <FaLinkedin />,
     title: 'LinkedIn',
-    description: 'Zakariae Azarkan',
+    description: 'JADIR Mohammed',
     action: () => window.open("https://www.linkedin.com/in/zakariae-azarkan/", "_blank")
   },
   {

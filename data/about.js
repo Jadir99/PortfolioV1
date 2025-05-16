@@ -32,19 +32,24 @@ import { RiNextjsFill } from "react-icons/ri";
 
 export const about = {
   title: 'About Me',
-  description: 'I\'m Zakariae Azarkan, a full-stack developer with over 2 years of experience, specializing in building responsive and high-performance websites using technologies such as React and Express. I focus on creating clean, user-friendly interfaces and continuously improve my skills to deliver great results for my clients.',
+  description: 'I\'m JADIR Mohammed, a junior data scientist and full-stack developer passionate about building smart, responsive web applications. I focus on delivering impactful, data-driven user experiences through thoughtful design and continuous learning.',
 };
 
 export const experience = [
   {
     icon: '/assets/about/badge.svg',
     title: 'My Experience',
-    description: 'As an intern at Hashtag 64, I developed a cross-platform mobile app offering relaxing music playlists, preset sound waves, and customizable sound options to help mask tinnitus symptoms, enhancing users quality of life.',
+    // description: 'Design and development of an online learning platform (E-learning) . Front-end: HTML, CSS, JS, Bootstrap. Back-end: Laravel. Worked with agile methodology (Kanban).',
     items: [
       {
-        company: 'Hashtag 64',
+        company: 'YaneCode | Safi, Morocco',
         position: 'Full Stack Developer',
-        duration: '01 July 2024 - 31 Nobember 2024',
+        duration: 'Avr 2023 - Mai 2023',
+      },
+      {
+        company: 'MR.elec | CasaBlanca, Morocco',
+        position: 'Full Stack Developer',
+        duration: 'Août 2022 - Sept 2022',
       },
     ]
   }

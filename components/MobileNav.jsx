@@ -33,7 +33,7 @@ const MobileNav = () => {
             <SheetContent className="flex flex-col">
                 <div className="mt-32 mb-40 text-center text-2xl">
                     <Link href="/" onClick={handleLinkClick}>
-                        <h1 className="text-4xl font-semibold">Zak<span className="text-accent">.dev</span></h1>
+                        <h1 className="text-4xl font-semibold">JADIR<span className="text-accent">.ML</span></h1>
                     </Link>
                 </div>
                 <nav className="flex flex-col justify-center items-center gap-8">

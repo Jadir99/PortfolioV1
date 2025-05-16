@@ -13,7 +13,7 @@ const Home = () => {
 
   const handleResumeClick = () => {
     playClickSound();
-    window.open('/Docs/cv_en.pdf', '_blank');
+    window.open('/Docs/cv_jadir.pdf', '_blank');
   };
 
   const handleSocialClick = (url) => {
@@ -42,16 +42,16 @@ const Home = () => {
               transition={{ delay: 0.3, duration: 0.5 }}
               className="h1 mb-6"
             >
-              Hi I'm <br /> <span className="text-accent">Zakariae Azarkan</span>
+              Hi I'm <br /> <span className="text-accent">JADIR Mohammed</span>
             </motion.h1>
             <motion.p 
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4, duration: 0.5 }}
               className="max-w-[500px] mb-9 text-white/60"
-            >
-              I am a junior Full Stack Developer based in 📍Tangier, Morocco.
-            </motion.p>
+            >             
+             I am a Data Scientist and junior Full Stack Developer. <br />
+              Future engineer at the National Higher School of Artificial Intelligence and Data Science (ENSIASD), specializing in AI, Big Data, and Data Science.            </motion.p>
             <motion.div 
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -91,7 +91,7 @@ const Home = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.6, duration: 0.5 }}
       >
-        <Stats />
+        {/* <Stats /> */}
       </motion.div>
     </motion.section>
   )

@@ -11,13 +11,13 @@ const jetbrainsMono = JetBrains_Mono({
 })
 
 export const metadata = {
-  title: "Zakariae Azarkan",
+  title: "JADIR Mohammed",
   description: "A passionate Full Stack Developer based in Tangier, Morocco, specializing in creating dynamic web applications.",
   openGraph: {
-    title: "Zakariae Azarkan",
+    title: "JADIR Mohammed",
     description: "A passionate Full Stack Developer based in Tangier, Morocco, specializing in creating dynamic web applications.",
     url: "https://zakariaeazarkan.vercel.app/",
-    siteName: "Zakariae Azarkan",
+    siteName: "JADIR Mohammed",
     images: [
       {
         url: "https://zakariaeazarkan.vercel.app/assets/image2.jpeg",
@@ -30,7 +30,7 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Zakariae Azarkan",
+    title: "JADIR Mohammed",
     description: "A passionate Full Stack Developer based in Tangier, Morocco, specializing in creating dynamic web applications.",
     images: ["https://zakariaeazarkan.vercel.app/assets/image2.jpeg"],
   },
