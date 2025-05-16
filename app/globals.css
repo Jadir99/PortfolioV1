@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-primary bg-primary text-white leading-loose;
+  }
+  .h1 {
+    @apply text-[48px] xl:text-[80px] leading-[1.1] font-semibold;
+  }
+  .h2 {
+    @apply text-[36px] xl:text-[48px] leading-[1.1] font-semibold;
+  }
+  .h3 {
+    @apply text-[20px] xl:text-[24px] leading-[1.1] font-semibold;
+  }
+  .text-outline {
+    -webkit-text-stroke: 1px #ffffff;
+  }
+  .text-outline-hover {
+    -webkit-text-stroke: 1px #e31b6d;
+  }
+}
+
+@layer utilities {
+  /* Horizontal Scrolling Animation */
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  .animate-scroll {
+    animation: scroll 20s linear infinite;
+    display: flex;
+    gap: 2rem; /* Adjust the gap between icons */
+  }
+
+  /* Gradient Overlays */
+  .gradient-overlay-left {
+    background: linear-gradient(to right, rgba(17, 24, 39, 1), rgba(17, 24, 39, 0));
+  }
+
+  .gradient-overlay-right {
+    background: linear-gradient(to left, rgba(17, 24, 39, 1), rgba(17, 24, 39, 0));
+  }
+}
