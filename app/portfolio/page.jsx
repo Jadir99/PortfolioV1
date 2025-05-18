@@ -120,14 +120,14 @@ export default function Portfolio() {
                     initial={{ opacity: 0, scale: 0.9 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.5 }}
-                    className='h-[460px] relative group flex justify-center items-center bg-pink-50/20 rounded-lg overflow-hidden'
+                    className='h-[500px] relative group flex justify-center items-center bg-pink-50/20 rounded-lg overflow-hidden'
                     onMouseEnter={() => setHoveredIndex(index)}
                     onMouseLeave={() => setHoveredIndex(null)}
                   >
                     <Image
                       src={project.image}
                       fill
-                      className='object-cover'
+                      className='object-contain'
                       alt={project.title}
                     />
                     <motion.div 

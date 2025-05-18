@@ -72,7 +72,7 @@ const Contact = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.7, duration: 0.5 }}
               >
-                <Select>
+                {/* <Select>
                   <SelectTrigger className='w-full'>
                     <SelectValue placeholder='Select a service' />
                   </SelectTrigger>
@@ -84,7 +84,7 @@ const Contact = () => {
                       <SelectItem value="mst">Gaming</SelectItem>
                     </SelectGroup>
                   </SelectContent>
-                </Select>
+                </Select> */}
               </motion.div>
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
