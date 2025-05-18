@@ -52,7 +52,7 @@ const About = () => {
             <TabsTrigger value="about">About Me</TabsTrigger>
             <TabsTrigger value="experience">Experience</TabsTrigger>
             <TabsTrigger value="education">Education</TabsTrigger>
-            <TabsTrigger value="certificates">Certificates</TabsTrigger>
+            {/* <TabsTrigger value="certificates">Certificates</TabsTrigger> */}
             <TabsTrigger value="skills">Skills</TabsTrigger>
           </TabsList>
 
@@ -124,27 +124,31 @@ const About = () => {
                     </motion.p>
                     <ScrollArea className='w-full'>
                       <motion.ul 
-                        className='grid grid-cols-1 lg:grid-cols-2 gap-[30px]'
+                        className='flex flex-col gap-[30px]' // One item per row
                         variants={staggerContainer}
                       >
                         {experience[0].items.map((item, index) => (
                           <motion.li
                             key={index}
                             variants={fadeInUp}
-                            className='bg-gray-800 bg-opacity-50 backdrop-blur-lg h-[184px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start'
+                            className='bg-gray-800 bg-opacity-50 backdrop-blur-lg min-h-[220px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start'
                           >
                             <span className='text-accent'>{item.duration}</span>
-                            <h3 className='text-xl max--[260px] min-h-[60px] text-center lg:text-left'>
+                            <h3 className='text-xl max-w-[260px] min-h-[60px] text-center lg:text-left'>
                               {item.position}
                             </h3>
-                            <div className='flex items-center gap-3'>
-                              <span className='w-[6px] h-[6px] rounded-full bg-accent '></span>
+                            <div className='flex items-center gap-3 mb-2'>
+                              <span className='w-[6px] h-[6px] rounded-full bg-accent'></span>
                               <p className='text-white/60'>{item.company}</p>
                             </div>
+                            <p className='text-white/70 text-sm text-center lg:text-left'>
+                              {item.description}
+                            </p>
                           </motion.li>
                         ))}
                       </motion.ul>
                     </ScrollArea>
+
                   </motion.div>
                 </TabsContent>
                 <TabsContent value="education" className='w-full'>
@@ -160,23 +164,25 @@ const About = () => {
                     >
                       {education[0].title}
                     </motion.h3>
+
                     <ScrollArea className='w-full'>
                       <motion.ul 
-                        className='grid grid-cols-1 lg:grid-cols-2 gap-[30px]'
+                        className='flex flex-col gap-[30px]' // One item per row
                         variants={staggerContainer}
                       >
                         {education[0].items?.map((item, index) => (
                           <motion.li
                             key={index}
                             variants={fadeInUp}
-                            className='bg-gray-800 bg-opacity-50 backdrop-blur-lg h-[184px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start'
+                            className='bg-gray-800 bg-opacity-50 backdrop-blur-lg min-h-[184px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start'
                           >
                             <span className='text-accent'>{item.duration}</span>
-                            <h3 className='text-xl max--[260px] min-h-[60px] text-center lg:text-left'>
+                            <h3 className='text-xl w-full whitespace-nowrap overflow-hidden text-ellipsis text-center lg:text-left'>
                               {item.degree}
                             </h3>
+
                             <div className='flex items-center gap-3'>
-                              <span className='w-[6px] h-[6px] rounded-full bg-accent '></span>
+                              <span className='w-[6px] h-[6px] rounded-full bg-accent'></span>
                               <p className='text-white/60'>{item.institution}</p>
                             </div>
                           </motion.li>
@@ -185,7 +191,8 @@ const About = () => {
                     </ScrollArea>
                   </motion.div>
                 </TabsContent>
-                <TabsContent value="certificates" className='w-full py-8'>
+
+                {/* <TabsContent value="certificates" className='w-full py-8'>
                   <motion.div 
                     className='flex flex-col items-center'
                     variants={staggerContainer}
@@ -239,7 +246,7 @@ const About = () => {
                       </Swiper>
                     </motion.div>
                   </motion.div>
-                </TabsContent>
+                </TabsContent> */}
                 <TabsContent value="skills" className='w-full h-full'>
                   <motion.div 
                     className='flex flex-col gap-[30px]'

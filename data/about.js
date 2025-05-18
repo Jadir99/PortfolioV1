@@ -4,11 +4,23 @@ import {
   FaJenkins,
   FaAws,
   FaGithub,
-  FaVuejs,
-  FaAngular,
   FaLaravel,
   FaNodeJs,
-  FaLinux
+  FaLinux,
+  FaDiscord,
+  FaFigma,
+  FaHtml5,
+  FaCss3,
+  FaJsSquare,
+  FaBootstrap,
+  FaGitAlt,
+  FaJava,
+  FaPython,
+  FaPhp,
+  FaDatabase,
+  // api rest
+
+
 } from 'react-icons/fa';
 
 import {
@@ -45,11 +57,13 @@ export const experience = [
         company: 'YaneCode | Safi, Morocco',
         position: 'Full Stack Developer',
         duration: 'Avr 2023 - Mai 2023',
+        description: 'Design and development of an online learning platform (E-learning) . Front-end: HTML, CSS, JS, Bootstrap. Back-end: Laravel. Worked with agile methodology (Kanban).',
       },
       {
         company: 'MR.elec | CasaBlanca, Morocco',
         position: 'Full Stack Developer',
         duration: 'Août 2022 - Sept 2022',
+        description: 'Development of a application web for solar pumping simulation and material management. In-depth knowledge of the solar industry.',
       },
     ]
   }
@@ -61,21 +75,16 @@ export const education = [
     title: 'My Education',
     items: [
       {
-        institution: 'Faculty of Science and Technology of Tangier',
-        degree: 'Software Engineering Degree',
-        duration: 'September 2023 - Present',
+        institution: 'National Higher School of Artificial Intelligence and Data Science (ENSIASD). | UIZ',
+        degree: 'Big Data, AI, and Data Science Engineering',
+        duration: 'DEC 2023 - Present',
       },
       {
-        institution: 'Faculty of Science of Tetouan',
-        degree: 'University Diploma in Computer Science',
+        institution: 'Safi Higher School of Technology (EST) safi | UCA',
+        degree: 'Computer Engineering',
         duration: '2021 - 2023',
       },
-      {
-        institution: 'CPGE Tetouan',
-        degree: 'Mathematics and Physics (MPSI)',
-        duration: '2020 - 2021',
-      }
-    ]
+    ] 
   }
 ];
 
@@ -139,84 +148,20 @@ export const skills = [
         title: 'Docker',
       },
       {
-        icon: <FaJenkins className='text-7xl text-red-500' />,
-        title: 'Jenkins',
-      },
-      {
-        icon: <SiKubernetes className='text-7xl text-blue-600' />,
-        title: 'Kubernetes',
-      },
-      {
-        icon: <SiTerraform className='text-7xl text-purple-600' />,
-        title: 'Terraform',
-      },
-      {
-        icon: <FaAws className='text-7xl text-yellow-500' />,
-        title: 'AWS',
-      },
-      {
-        icon: <SiGrafana className='text-7xl text-orange-500' />,
-        title: 'Grafana',
-      },
-      {
-        icon: <SiPrometheus className='text-7xl text-red-600' />,
-        title: 'Prometheus',
+        icon: <FaPython className='text-7xl text-emerald-500' />,
+        title: 'Python',
       },
       {
         icon: <SiFlask className='text-7xl text-gray-800' />,
         title: 'Flask',
       },
       {
-        icon: <SiSpringboot className='text-7xl text-green-600' />,
-        title: 'Spring Boot',
-      },
-      {
-        icon: <RiNextjsFill className='text-7xl text-black' />,
-        title: 'Next.js',
-      },
-      {
-        icon: <FaVuejs className='text-7xl text-emerald-500' />,
-        title: 'Vue.js',
-      },
-      {
-        icon: <FaAngular className='text-7xl text-red-600' />,
-        title: 'Angular',
-      },
-      {
-        icon: <FaNodeJs className='text-7xl text-node' />,
-        title: 'Node.js',
-      },
-      {
-        icon: <SiExpress className='text-7xl text-express' />,
-        title: 'Express',
-      },
-      {
-        icon: <FaLaravel className='text-7xl text-red-500' />,
-        title: 'Laravel',
-      },
-      {
-        icon: <SiUnity className='text-7xl text-gray-800' />,
-        title: 'Unity',
-      },
-      {
-        icon: <FaGithub className='text-7xl text-orange-600' />,
-        title: 'Git',
-      },
-      {
-        icon: <FaLinux className='text-7xl text-node' />,
-        title: 'Linux',
-      },
-      {
         icon: <SiJupyter className='text-7xl text-orange-500' />,
         title: 'Jupyter Notebook',
       },
       {
-        icon: <SiDotnet className='text-7xl text-purple-600' />,
-        title: '.NET',
-      },
-      {
-        icon: <SiOracle className='text-7xl text-red-600' />,
-        title: 'Oracle',
+        icon: <FaDatabase className='text-7xl text-green-600' />,
+        title: 'Database',
       },
       {
         icon: <SiMysql className='text-7xl text-blue-600' />,
@@ -229,6 +174,50 @@ export const skills = [
       {
         icon: <SiMongodb className='text-7xl text-green-500' />,
         title: 'MongoDB',
+      },
+      {
+        icon: <FaJava className='text-7xl text-red-600' />,
+        title: 'Java',
+      },
+      {
+        icon: <FaGitAlt className='text-7xl text-node' />,
+        title: 'Git',
+      },
+      {
+        icon: <FaGithub className='text-7xl text-orange-600' />,
+        title: 'Git',
+      },
+      {
+        icon: <FaFigma className='text-7xl text-red-600' />,
+        title: 'Figma',
+      },
+      {
+        icon: <FaHtml5 className='text-7xl text-red-500' />,
+        title: 'Html5',
+      },
+      {
+        icon: <FaCss3 className='text-7xl text-purple-600' />,
+        title: 'Css3',
+      },
+      {
+        icon: <FaBootstrap className='text-7xl text-express' />,
+        title: 'Bootstrap',
+      },
+      {
+        icon: <FaJsSquare className='text-7xl text-gray-800' />,
+        title: 'Js',
+      },
+      {
+        icon: <FaPhp className='text-7xl text-black' />,
+        title: 'Php',
+      },
+      {
+        icon: <FaLaravel className='text-7xl text-red-500' />,
+        title: 'Laravel',
+      },
+      {
+        icon: <FaLinux className='text-7xl text-node' />,
+        title: 'Linux',
       },
     ]
   }
