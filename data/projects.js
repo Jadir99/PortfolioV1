@@ -69,7 +69,7 @@ export const projects = [
       { name: "Bootstrap" },
       { name: "MySQL" },
     ],
-    image: '/assets/projects/fintech.png',
+    image: '/assets/projects/l_student.png',
     live: '',
     github: 'https://github.com/Jadir99/PFA_ELEARNINGPLATFORM',
   },
@@ -199,7 +199,7 @@ export const projects = [
     title: 'E-Learning Platform intership',
     description: 'Designed and developed an online learning platform following agile Kanban methodology.',
     stack: [{name:"Js",}, {name:"Bootstrap"}, {name:"Css"},{name:"Html"}, {name:"Laravel"}, {name:"MySql"}],
-    image: '/assets/projects/social_book.jpg',
+    image: '/assets/projects/landing.png',
     live: '',
     github: 'https://github.com/Jadir99/E-learning',
   }

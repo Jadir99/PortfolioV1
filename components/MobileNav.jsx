@@ -9,7 +9,7 @@ const links = [
     { name: 'home', path: '/' },
     { name: 'about', path: '/about' },
     { name: 'portfolio', path: '/portfolio' },
-    { name: 'services', path: '/services' },
+    // { name: 'services', path: '/services' },
     { name: 'contact', path: '/contact' },
 ];
 
